@@ -23,16 +23,21 @@
   font-size: 25px;
 }
 .productItem .productHeader {
-  color: #0048ff;
+  color: #000000;
   font-weight: bolder;
   font-size: larger;
+  text-align: center;
 }
 .productItem .productImg {
-  height: 10em;
-  width: 10em;
-  border-radius: 20%;
-  margin: 1em;
+  height: 20em;
+  width: 20em;
+  border-radius: 50%;
+  margin-left: 4rem;
+  margin-top: 4rem;
+  margin-bottom:  4rem;
 }
+
+
 .productItem .productFooter {
     color: #000000;
     font-weight: bolder;

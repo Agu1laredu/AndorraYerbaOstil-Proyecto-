@@ -1,29 +1,16 @@
-.sitemap{
-  display: flex;
-  flex-direction: column;
-  gap: 1em;
-  justify-content: center;
-}
+
 
 .socialMedia   {
 display: flex;
-flex-direction: column;
 gap: 3em;
-justify-content: end;
+justify-content: center;
+margin-top: 5%;
 }
 .socialMedia  svg {
   height: 2em;
   width: 3em;
 }
-.socialMedia .socialMediaIconInstagram :hover {
-  color: #f56040;
-}
-.socialMedia .socialMediaIconFacebook :hover {
-  color: #0165E1;
-}
-.socialMedia .socialMediaIconWhatsapp :hover {
-  color: #28D146;
-}
+
 
 .trademark {
   border-top: #6c64647d 2px solid;
@@ -32,3 +19,8 @@ justify-content: end;
   font-size: 1.4em;
   font-weight: bold;
 }
+a:hover{
+  cursor: pointer;
+  
+}
+

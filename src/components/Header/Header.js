@@ -17,12 +17,10 @@ export default function Header() {
         className="navbar w-100"
         sticky="top"
       >
-        <Container fluid className="d-flex justify-content-center">
+        <Container fluid className="d-flex justify-content-center"><img alt="" src={logo} className=" mx-auto img-fluid logoMate" />
           <Navbar.Brand className="brand m-2">
             <Nav.Link as={Link} to={"/"} className="link-logo-home">
-              <img alt="" src={logo} className=" mx-auto img-fluid logoMate" />
-              <hr></hr>
-              <p className="text-light navbar-text"> S&A Mimate</p>
+              <p className="text-dark navbar-text"> ANDORRA YERBA OSTIL</p>
             </Nav.Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav color-light">

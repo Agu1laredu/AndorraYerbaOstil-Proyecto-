@@ -8,7 +8,7 @@ export default function SaludoHome() {
         <>
             <div className=" d-flex row col-xl-12">
                 <div className="home-saludo text-warning">
-                <h1 className="text-warning fw-bold">Bienvenido a S&A Mimate</h1>
+                <h1 className="text-warning fw-bold">BIENVENIDOS A ANDORRA YERBA OSTIL</h1>
                 <h4 className="p-home animate__animated animate__fadeInLeft">
                     Somos un emprendimiento joven dedicado a la venta de productos para el
                     mate, buscando ofrecer gran variabilidad y accesibilidad para todos
@@ -16,9 +16,7 @@ export default function SaludoHome() {
                     humano y qué mejor que unos buenos mates para compartir momentos !
                 </h4>
                 </div>
-                <div className="carrouselHome">
-
-                </div>
+                
             </div>
         </>
     );
